@@ -10,11 +10,11 @@ açık Türkçe modellerin **birincisi** oldu.
 
 <br>
 
+[![Erk Model](https://img.shields.io/badge/🤗_Erk--14B-%25_69.7_TurkishMMLU-2ea043?style=for-the-badge)](https://huggingface.co/ecloudtech/Erk-14B)
+[![Erk Repo](https://img.shields.io/badge/Model-Erk-c9a227?style=for-the-badge)](https://github.com/ecloudtechnology/erk)
 [![Lisans](https://img.shields.io/badge/Lisans-MIT-111?style=for-the-badge)](LICENSE)
-[![Dil](https://img.shields.io/badge/Dil-Türkçe-e30a17?style=for-the-badge)](#)
-[![Erk](https://img.shields.io/badge/Model-Erk_🥇_%25_69.7-2ea043?style=for-the-badge)](https://github.com/ecloudtechnology/erk)
 
-**[Türkçe](#türkçe)** · **[English](#english)** · [eCloud Tech.](https://www.e-cloud.web.tr)
+[Erk modelini indir (🤗)](https://huggingface.co/ecloudtech/Erk-14B) · **[Türkçe](#türkçe)** · **[English](#english)** · [eCloud Tech.](https://www.e-cloud.web.tr)
 
 </div>
 
@@ -120,8 +120,9 @@ results/    Tokenizer karşılaştırma sonuçları ve örnek üretimler
 | 2 | Türkçe web derleminde ön-eğitim | ✅ |
 | 3 | Türkçe talimat ayarı — sohbet, alan uzmanlığı, kimlik | ✅ |
 | 4 | TurkishMMLU değerlendirmesi — **açık Türkçe modellerde 1.** (%69,7) | ✅ |
-| 5 | Model ağırlıkları (Hugging Face) + eğitim maliyet rehberi | 🔄 |
-| 6 | **Erk-32B** — genişletilmiş ölçekli sürüm | 🔜 çalışmalar başlıyor |
+| 5 | Model ağırlıkları — [🤗 Erk-14B](https://huggingface.co/ecloudtech/Erk-14B) yayında | ✅ |
+| 6 | Eğitim maliyet rehberi | 🔄 |
+| 7 | **Erk-32B** — genişletilmiş ölçekli sürüm | 🔜 çalışmalar başlıyor |
 
 ### Katkı
 
