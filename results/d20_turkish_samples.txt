@@ -1,0 +1,41 @@
+2026-07-09 16:41:39,357 - nanochat.common - [32m[1mINFO[0m - Distributed world size: 1
+2026-07-09 16:41:39,365 - nanochat.checkpoint_manager - [32m[1mINFO[0m - Loading model from /ari/users/ytanis/.cache/nanochat/base_checkpoints/d20 with step 4980
+2026-07-09 16:41:41,941 - nanochat.checkpoint_manager - [32m[1mINFO[0m - Building model with config: {'sequence_len': 2048, 'vocab_size': 32768, 'n_layer': 20, 'n_head': 10, 'n_kv_head': 10, 'n_embd': 1280, 'window_pattern': 'SSSL'}
+======================================================================
+<|bos|>Türkiye'nin başkenti Ankara'da, Fetullahçı Terör Örgütü'nün (FETÖ) 15 Temmuz darbe girişimine ilişkin açılan "demokrasi" davasında, eski Genelkurmay Başkanı İlker Başbuğ'un da aralarında bulunduğu 6 sanığın, ağırlaştırılmış müebbet hapisle cezalandırılmasına karar verildi.
+Ankara 4. Ağır Ceza Mahkemesindeki görülen
+======================================================================
+<|bos|>İstanbul Boğazı'nın iki yakasını birbirine bağlayan 15 Temmuz Şehitler Köprüsü'ndeki iki kaza, bu sabah saat 10.00 sıralarında meydana geldi. Kaza, dün sabah saat 10.30 sıralarında Ataşehir'de meydana geldi. Sürücü, otomobiliyle köprü girişine geldiğinde, otomobiline 3. köprüden geçmeye çalışan bir kamyonun çarptığını,
+======================================================================
+<|bos|>Türk mutfağının en sevilen yemeklerinden biri olan şambali, her yaştan insanın severek tükettiği bir yemektir. Ancak şambali nasıl yapılır? Sorusunu merak ediyorsanız, doğru adrestesiniz. Bu yazıda, şambali yapımında nelere dikkat etmeniz gerektiğini öğreneceksiniz. Ayrıca, şambali tarifi ve şambali
+======================================================================
+<|bos|>Cumhuriyet, 29 Ekim 1923 tarihinde ilan edilmiş ulusal bir devlettir. Ulusal sıfatını, Türkiye Cumhuriyeti ile yapılan 29 Ekim 1923 tarihinde imzalanan Cumhuriyet Halk Fırkası kurultayından almıştır. Cumhuriyet rejimi, Türkiye Cumhuriyeti’nin yönetim sistemidir. Bu sistemle, Türkiye’nin bütün bölgelerinde, halkın kendi kendini yönetmesi ve egemenliği kendi elinde bulması
+======================================================================
+<|bos|>Yapay zekâ teknolojileri sayesinde, insanlığı tehdit edebilecek büyük bir sorunun cevabı bulunabilir. Yapay zekânın bir sonraki adımının yapay organlar olduğu ve yapay organlar sayesinde insanların organ eksikliğine son verilebileceği iddia ediliyor.
+Yapay zekânın insanlık için büyük bir tehdit haline geldiği günümüzde, yapay organların geliştirilmesiyle ilgili bir tartışma gündemi
+======================================================================
+<|bos|>Karadeniz Bölgesi'nde en çok yetiştirilen ürün olan fındık, Türkiye'de de en çok tüketilen gıdalar arasında yer alıyor. Her yıl ortalama 30-40 bin ton üretilen fındık, yaklaşık 500 milyon dolar civarında bir gelir sağlıyor. Ancak Karadeniz Bölgesi'nin dışında, Türkiye'nin batı bölgesinde de fındığın yetiştiriciliği yapılıyor. Bu fındıklar özellikle
+======================================================================
+<|bos|>Bir zamanlar küçük bir kasabada yaşayan yaşlı bir adam vardı. Çok zengin ve sağlıklıydı. Herkesle iyi geçinirdi. Hatta bir keresinde kasaba halkından biri ile bile iyi anlaşmıştı. Bu adam ihtiyar adamın huzurunu kaçırmış ve ondan ayrılmıştı. Bir gün kasaba halkı bir araya geldi ve yaşlı adamın bir daha kasabaya dönmemesini
+======================================================================
+<|bos|>Eğitim sisteminin en önemli amacı, öğrencilerin okuldaki derslerindeki başarısı veya mezuniyet durumu ne olursa olsun, öğrenmenin kalıcı hale gelmesi için gereken zihinsel ve duygusal yeterliliği sağlamaktır. Bu yeterliliği sağlamayı amaçlayan programlar, öğrencilerin okulda öğrenmiş oldukları derslerin yanında daha çok pratik, analiz-sentez, sentez-sentez, sentez-sentez
+======================================================================
+<|bos|>Diplomasi, ülkeler arasındaki ilişkilerin geliştirilmesi ve yönetilmesi sürecidir. Diplomasi, devletler arasında iletişimi artırır, karşılıklı anlayışı artırır ve ilişkileri derinleştirir. Ancak, diplomasinin doğru ve etkili bir şekilde uygulanması için bazı stratejilere ihtiyaç duyulur. Bu stratejilerden biri de diplomatic processing (diplomasi süreci) olarak bilinir
+======================================================================
+<|bos|>Dün akşam hava çok soğuktu, bu yüzden tüm günüm evde, dışarıda dolaşarak geçti. Eve geldiğimde biraz giyindikten sonra dışarı çıktım, bir kafeye girip oturdum ve saat 19:00 da çalan zil sesiyle, elim titreyene kadar bekledim. Kapıyı açan olmadı, zil sesini duyup da evde kimse olmadığından
+SAMPLING_DONE
+
+===== SLURM IS ISTATISTIKLERI (JOB STATISTICS) ========================
+Job ID: 501330
+Cluster: altay
+User/Group: ytanis/nettba
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 64
+CPU Utilized: 00:00:21
+CPU Efficiency: 0.54% of 01:05:04 core-walltime
+Job Wall-clock time: 00:01:01
+Memory Utilized: 622.88 MB
+Memory Efficiency: 0.12% of 488.28 GB
+
+=======================================================================

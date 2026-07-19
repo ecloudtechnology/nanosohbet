@@ -1,0 +1,340 @@
+{
+  "erk-32k": {
+    "vocab_size": 32768,
+    "corpora": {
+      "tr_web": {
+        "tokens": 11205058,
+        "fertility": 1.641,
+        "bytes_per_token": 5.1317,
+        "chars_per_token": 4.679,
+        "cost_x": 1.085
+      },
+      "tr_wiki": {
+        "tokens": 12752482,
+        "fertility": 1.8614,
+        "bytes_per_token": 4.4691,
+        "chars_per_token": 4.1112,
+        "cost_x": 1.09
+      },
+      "en_web": {
+        "tokens": 18788948,
+        "fertility": 2.133,
+        "bytes_per_token": 2.8085,
+        "chars_per_token": 2.7904,
+        "cost_x": 1.138
+      }
+    }
+  },
+  "erk-48k": {
+    "vocab_size": 49152,
+    "corpora": {
+      "tr_web": {
+        "tokens": 10656704,
+        "fertility": 1.5607,
+        "bytes_per_token": 5.3958,
+        "chars_per_token": 4.9198,
+        "cost_x": 1.032
+      },
+      "tr_wiki": {
+        "tokens": 12096528,
+        "fertility": 1.7656,
+        "bytes_per_token": 4.7114,
+        "chars_per_token": 4.3341,
+        "cost_x": 1.034
+      },
+      "en_web": {
+        "tokens": 17392774,
+        "fertility": 1.9745,
+        "bytes_per_token": 3.034,
+        "chars_per_token": 3.0144,
+        "cost_x": 1.054
+      }
+    }
+  },
+  "erk-64k": {
+    "vocab_size": 65536,
+    "corpora": {
+      "tr_web": {
+        "tokens": 10326253,
+        "fertility": 1.5123,
+        "bytes_per_token": 5.5684,
+        "chars_per_token": 5.0772,
+        "cost_x": 1.0
+      },
+      "tr_wiki": {
+        "tokens": 11702446,
+        "fertility": 1.7081,
+        "bytes_per_token": 4.8701,
+        "chars_per_token": 4.4801,
+        "cost_x": 1.0
+      },
+      "en_web": {
+        "tokens": 16507620,
+        "fertility": 1.874,
+        "bytes_per_token": 3.1966,
+        "chars_per_token": 3.176,
+        "cost_x": 1.0
+      }
+    }
+  },
+  "GPT-4 (cl100k)": {
+    "vocab_size": 100277,
+    "corpora": {
+      "tr_web": {
+        "tokens": 20567621,
+        "fertility": 3.0121,
+        "bytes_per_token": 2.7957,
+        "chars_per_token": 2.5491,
+        "cost_x": 1.992
+      },
+      "tr_wiki": {
+        "tokens": 20720165,
+        "fertility": 3.0244,
+        "bytes_per_token": 2.7506,
+        "chars_per_token": 2.5303,
+        "cost_x": 1.771
+      },
+      "en_web": {
+        "tokens": 11462329,
+        "fertility": 1.3013,
+        "bytes_per_token": 4.6037,
+        "chars_per_token": 4.574,
+        "cost_x": 0.694
+      }
+    }
+  },
+  "GPT-4o (o200k)": {
+    "vocab_size": 200019,
+    "corpora": {
+      "tr_web": {
+        "tokens": 15452309,
+        "fertility": 2.263,
+        "bytes_per_token": 3.7212,
+        "chars_per_token": 3.3929,
+        "cost_x": 1.496
+      },
+      "tr_wiki": {
+        "tokens": 16106388,
+        "fertility": 2.3509,
+        "bytes_per_token": 3.5385,
+        "chars_per_token": 3.2551,
+        "cost_x": 1.376
+      },
+      "en_web": {
+        "tokens": 11322875,
+        "fertility": 1.2854,
+        "bytes_per_token": 4.6604,
+        "chars_per_token": 4.6303,
+        "cost_x": 0.686
+      }
+    }
+  },
+  "Llama-3.1": {
+    "vocab_size": 128256,
+    "corpora": {
+      "tr_web": {
+        "tokens": 15328683,
+        "fertility": 2.2449,
+        "bytes_per_token": 3.7512,
+        "chars_per_token": 3.4203,
+        "cost_x": 1.484
+      },
+      "tr_wiki": {
+        "tokens": 15908672,
+        "fertility": 2.3221,
+        "bytes_per_token": 3.5824,
+        "chars_per_token": 3.2956,
+        "cost_x": 1.359
+      },
+      "en_web": {
+        "tokens": 11453475,
+        "fertility": 1.3003,
+        "bytes_per_token": 4.6072,
+        "chars_per_token": 4.5775,
+        "cost_x": 0.694
+      }
+    }
+  },
+  "Qwen2.5": {
+    "vocab_size": 151665,
+    "corpora": {
+      "tr_web": {
+        "tokens": 17793838,
+        "fertility": 2.6059,
+        "bytes_per_token": 3.2315,
+        "chars_per_token": 2.9464,
+        "cost_x": 1.723
+      },
+      "tr_wiki": {
+        "tokens": 18685321,
+        "fertility": 2.7274,
+        "bytes_per_token": 3.0501,
+        "chars_per_token": 2.8058,
+        "cost_x": 1.597
+      },
+      "en_web": {
+        "tokens": 11712606,
+        "fertility": 1.3297,
+        "bytes_per_token": 4.5053,
+        "chars_per_token": 4.4762,
+        "cost_x": 0.71
+      }
+    }
+  },
+  "Mistral-v0.3": {
+    "vocab_size": 32768,
+    "corpora": {
+      "tr_web": {
+        "tokens": 26096828,
+        "fertility": 3.8219,
+        "bytes_per_token": 2.2034,
+        "chars_per_token": 2.009,
+        "cost_x": 2.527
+      },
+      "tr_wiki": {
+        "tokens": 26504032,
+        "fertility": 3.8686,
+        "bytes_per_token": 2.1503,
+        "chars_per_token": 1.9781,
+        "cost_x": 2.265
+      },
+      "en_web": {
+        "tokens": 13079240,
+        "fertility": 1.4848,
+        "bytes_per_token": 4.0346,
+        "chars_per_token": 4.0085,
+        "cost_x": 0.792
+      }
+    }
+  },
+  "Gemma-2": {
+    "vocab_size": 256000,
+    "corpora": {
+      "tr_web": {
+        "tokens": 15575350,
+        "fertility": 2.281,
+        "bytes_per_token": 3.6918,
+        "chars_per_token": 3.3661,
+        "cost_x": 1.508
+      },
+      "tr_wiki": {
+        "tokens": 16671288,
+        "fertility": 2.4334,
+        "bytes_per_token": 3.4186,
+        "chars_per_token": 3.1448,
+        "cost_x": 1.425
+      },
+      "en_web": {
+        "tokens": 11780127,
+        "fertility": 1.3373,
+        "bytes_per_token": 4.4795,
+        "chars_per_token": 4.4506,
+        "cost_x": 0.714
+      }
+    }
+  },
+  "Kumru-2B (TR)": {
+    "vocab_size": 50176,
+    "corpora": {
+      "tr_web": {
+        "tokens": 11460420,
+        "fertility": 1.6784,
+        "bytes_per_token": 5.0174,
+        "chars_per_token": 4.5748,
+        "cost_x": 1.11
+      },
+      "tr_wiki": {
+        "tokens": 13091308,
+        "fertility": 1.9108,
+        "bytes_per_token": 4.3534,
+        "chars_per_token": 4.0048,
+        "cost_x": 1.119
+      },
+      "en_web": {
+        "tokens": 17919146,
+        "fertility": 2.0343,
+        "bytes_per_token": 2.9448,
+        "chars_per_token": 2.9258,
+        "cost_x": 1.086
+      }
+    }
+  },
+  "cosmosGPT (TR)": {
+    "vocab_size": 50258,
+    "corpora": {
+      "tr_web": {
+        "tokens": 10683854,
+        "fertility": 1.5646,
+        "bytes_per_token": 5.3821,
+        "chars_per_token": 4.9073,
+        "cost_x": 1.035
+      },
+      "tr_wiki": {
+        "tokens": 11988238,
+        "fertility": 1.7498,
+        "bytes_per_token": 4.754,
+        "chars_per_token": 4.3733,
+        "cost_x": 1.024
+      },
+      "en_web": {
+        "tokens": 17423810,
+        "fertility": 1.978,
+        "bytes_per_token": 3.0286,
+        "chars_per_token": 3.009,
+        "cost_x": 1.056
+      }
+    }
+  },
+  "Turkcell-7b (TR)": {
+    "vocab_size": 48353,
+    "corpora": {
+      "tr_web": {
+        "tokens": 13263964,
+        "fertility": 1.9425,
+        "bytes_per_token": 4.3351,
+        "chars_per_token": 3.9527,
+        "cost_x": 1.284
+      },
+      "tr_wiki": {
+        "tokens": 15022829,
+        "fertility": 2.1928,
+        "bytes_per_token": 3.7937,
+        "chars_per_token": 3.4899,
+        "cost_x": 1.284
+      },
+      "en_web": {
+        "tokens": 13393822,
+        "fertility": 1.5205,
+        "bytes_per_token": 3.9398,
+        "chars_per_token": 3.9144,
+        "cost_x": 0.811
+      }
+    }
+  },
+  "Trendyol-7b (TR)": {
+    "vocab_size": 44312,
+    "corpora": {
+      "tr_web": {
+        "tokens": 14404128,
+        "fertility": 2.1095,
+        "bytes_per_token": 3.992,
+        "chars_per_token": 3.6398,
+        "cost_x": 1.395
+      },
+      "tr_wiki": {
+        "tokens": 15329808,
+        "fertility": 2.2376,
+        "bytes_per_token": 3.7177,
+        "chars_per_token": 3.42,
+        "cost_x": 1.31
+      },
+      "en_web": {
+        "tokens": 12619121,
+        "fertility": 1.4326,
+        "bytes_per_token": 4.1817,
+        "chars_per_token": 4.1547,
+        "cost_x": 0.764
+      }
+    }
+  }
+}
