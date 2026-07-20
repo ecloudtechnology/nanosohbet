@@ -101,6 +101,10 @@ torchrun --nproc_per_node=1 -m scripts.chat_sft
 python -m scripts.chat_cli
 ```
 
+**Ne kadara mal olur?** Konuşabilen bir Türkçe model ~100 USD, daha yetkin bir model
+~300–400 USD bütçeyle eğitilebilir. Gerçek ölçümlere dayalı ayrıntılı hesap:
+[**Eğitim Maliyet Rehberi**](MALIYET.md).
+
 Her aşama tek bir A100 düğümünde koşabilir; ön-eğitim çok-GPU'ya ölçeklenir.
 
 ### Depo yapısı
@@ -121,7 +125,7 @@ results/    Tokenizer karşılaştırma sonuçları ve örnek üretimler
 | 3 | Türkçe talimat ayarı — sohbet, alan uzmanlığı, kimlik | ✅ |
 | 4 | TurkishMMLU değerlendirmesi — **açık Türkçe modellerde 1.** (%69,7) | ✅ |
 | 5 | Model ağırlıkları — [🤗 Erk-14B](https://huggingface.co/ecloudtech/Erk-14B) yayında | ✅ |
-| 6 | Eğitim maliyet rehberi | 🔄 |
+| 6 | [Eğitim maliyet rehberi](MALIYET.md) — "kendi modelini şu kadara eğit" | ✅ |
 | 7 | **Erk-32B** — genişletilmiş ölçekli sürüm | 🔜 çalışmalar başlıyor |
 
 ### Katkı
