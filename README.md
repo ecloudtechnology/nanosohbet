@@ -5,8 +5,10 @@
 ### Kendi Türkçe dil modelini sıfırdan eğit
 
 Tokenizer'dan sohbet arayüzüne kadar — tam, açık ve tekrarlanabilir bir reçete.
-Bu reçeteyle eğitilen **[Erk](https://github.com/ecloudtechnology/erk)**, TurkishMMLU'da
-açık Türkçe modellerin **birincisi** oldu.
+Aynı Türkçe veri ve eğitim yaklaşımını, amiral modelimiz
+**[Erk](https://github.com/ecloudtechnology/erk)** için de kullandık; Erk (Qwen3-14B
+tabanlı, Türkçe sürekli ön-eğitim + talimat ayarı) TurkishMMLU'da açık Türkçe modellerin
+**birincisi** oldu.
 
 <br>
 
@@ -33,10 +35,15 @@ kapalı modellere bağımlı ya da dağınık, eksik kaynaklarla baş başa. nan
 doldurur: tokenizer eğitiminden ön-eğitime, talimat ayarından (SFT) sohbet arayüzüne
 kadar **her adım tek bir kod tabanında, açık ve tekrarlanabilir.**
 
-> **Bu reçete kanıtlanmıştır.** Bu depodaki adımlarla eğitilen amiral model
-> **[Erk](https://github.com/ecloudtechnology/erk)**, bağımsız ve kamuya açık
-> **TurkishMMLU** kıyaslamasında **%69,7** ile test edilen açık Türkçe modellerin
-> **en iyisi** oldu — Trendyol, Turkish-Gemma ve Kumru dahil.
+> **Yaklaşım kanıtlanmıştır.** Bu depodaki Türkçe veri ve talimat-ayarı yaklaşımı, amiral
+> modelimiz **[Erk](https://github.com/ecloudtechnology/erk)** için de kullanıldı. Erk
+> (Qwen3-14B tabanlı), bağımsız ve kamuya açık **TurkishMMLU** kıyaslamasında **%69,7** ile
+> test edilen açık Türkçe modellerin **en iyisi** oldu — Trendyol, Turkish-Gemma ve Kumru dahil.
+>
+> *Not:* Bu depodaki uçtan uca **sıfırdan eğitim** reçetesi (kendi tokenizer'ını eğit →
+> sıfırdan ön-eğit), makul bütçeyle kendi Türkçe modelini eğitmek isteyenler içindir. Erk
+> ise güçlü bir açık temel (Qwen3-14B) üzerine Türkçe sürekli ön-eğitim + talimat ayarı ile
+> geliştirilmiştir; ikisi farklı senaryolardır.
 
 ### Neden Türkçe'ye özel?
 
@@ -148,10 +155,15 @@ and scattered, incomplete resources. nanosohbet fills that gap: from tokenizer t
 to pretraining to instruction tuning to a chat interface — **every step, in one codebase,
 open and reproducible.**
 
-> **This recipe is proven.** The flagship model trained with these exact steps,
-> **[Erk](https://github.com/ecloudtechnology/erk)**, ranks **#1 among open Turkish
-> models on the independent, public TurkishMMLU benchmark (69.7%)** — ahead of Trendyol,
-> Turkish-Gemma and Kumru.
+> **The approach is proven.** We used the Turkish data and instruction-tuning approach in
+> this repo for our flagship model **[Erk](https://github.com/ecloudtechnology/erk)** as well.
+> Erk (built on Qwen3-14B) ranks **#1 among open Turkish models on the independent, public
+> TurkishMMLU benchmark (69.7%)** — ahead of Trendyol, Turkish-Gemma and Kumru.
+>
+> *Note:* the end-to-end **from-scratch** recipe in this repo (train your own tokenizer →
+> pretrain from scratch) is for training your own Turkish model on a budget. Erk instead is
+> built on a strong open base (Qwen3-14B) with Turkish continued pretraining + instruction
+> tuning — they are different scenarios.
 
 **Why Turkish-specific?** Turkish is agglutinative — dozens of suffixes attach to a single
 root. English-centric tokenizers over-split Turkish, meaning slower generation, higher
