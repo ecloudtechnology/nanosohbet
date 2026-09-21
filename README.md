@@ -7,8 +7,8 @@
 Tokenizer'dan sohbet arayüzüne kadar — tam, açık ve tekrarlanabilir bir reçete.
 Aynı Türkçe veri ve eğitim yaklaşımını, amiral modelimiz
 **[Erk](https://github.com/ecloudtechnology/erk)** için de kullandık; Erk (Qwen3-14B
-tabanlı, Türkçe sürekli ön-eğitim + talimat ayarı) TurkishMMLU'da açık Türkçe modellerin
-**birincisi** oldu.
+tabanlı, Türkçe sürekli ön-eğitim + talimat ayarı) TurkishMMLU'da kendi temel modelini
+**%63,4'ten %69,7'ye** taşıdı.
 
 <br>
 
@@ -35,10 +35,13 @@ kapalı modellere bağımlı ya da dağınık, eksik kaynaklarla baş başa. nan
 doldurur: tokenizer eğitiminden ön-eğitime, talimat ayarından (SFT) sohbet arayüzüne
 kadar **her adım tek bir kod tabanında, açık ve tekrarlanabilir.**
 
-> **Yaklaşım kanıtlanmıştır.** Bu depodaki Türkçe veri ve talimat-ayarı yaklaşımı, amiral
+> **Yaklaşım ölçüldü.** Bu depodaki Türkçe veri ve talimat-ayarı yaklaşımı, amiral
 > modelimiz **[Erk](https://github.com/ecloudtechnology/erk)** için de kullanıldı. Erk
-> (Qwen3-14B tabanlı), bağımsız ve kamuya açık **TurkishMMLU** kıyaslamasında **%69,7** ile
-> test edilen açık Türkçe modellerin **en iyisi** oldu — Trendyol, Turkish-Gemma ve Kumru dahil.
+> (Qwen3-14B tabanlı), bağımsız ve kamuya açık **TurkishMMLU** kıyaslamasında kendi temel
+> modelini **%63,4'ten %69,7'ye** taşıdı (+6,3). Daha sıkı protokolde — kirli sorular
+> çıkarılmış, şık döndürmeli, eşli bootstrap — aynı kazanç **+6,60 [+3,07, +10,28]**.
+> Başka modellerle sıralama tablosu vermiyoruz: onların sayıları başka protokollerle
+> yayımlandı ve kendi protokolümüzle yeniden ölçmedik.
 >
 > *Not:* Bu depodaki uçtan uca **sıfırdan eğitim** reçetesi (kendi tokenizer'ını eğit →
 > sıfırdan ön-eğit), makul bütçeyle kendi Türkçe modelini eğitmek isteyenler içindir. Erk
@@ -157,8 +160,12 @@ open and reproducible.**
 
 > **The approach is proven.** We used the Turkish data and instruction-tuning approach in
 > this repo for our flagship model **[Erk](https://github.com/ecloudtechnology/erk)** as well.
-> Erk (built on Qwen3-14B) ranks **#1 among open Turkish models on the independent, public
-> TurkishMMLU benchmark (69.7%)** — ahead of Trendyol, Turkish-Gemma and Kumru.
+> Erk (built on Qwen3-14B) moves its own base model from **63.4% to 69.7%** on the
+> independent, public TurkishMMLU benchmark (+6.3). Under a stricter protocol —
+> contaminated questions removed, option rotation, paired bootstrap — the same gain is
+> **+6.60 [+3.07, +10.28]**. We do not publish a ranking against other models: their
+> numbers were produced under different protocols and we have not re-measured them
+> under ours.
 >
 > *Note:* the end-to-end **from-scratch** recipe in this repo (train your own tokenizer →
 > pretrain from scratch) is for training your own Turkish model on a budget. Erk instead is
